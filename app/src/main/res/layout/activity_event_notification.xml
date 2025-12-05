@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/notification_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="Event Title"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/notification_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/notification_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/notification_button_bg"
+        android:paddingHorizontal="24dp"
+        android:paddingVertical="8dp"
+        android:text="Details"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:clickable="true"
+        android:focusable="true"/>
+
+    <!-- Dismiss Button (X icon) on the left as per screenshot but user instruction says "in the place where we have snooze" -->
+    <!-- The user said: "there should be a dismiss button in the place where we have 'snooze' in this attached screenshot." -->
+    <!-- In the screenshot, Snooze is bottom center. -->
+
+    <!-- I will put the Dismiss button at the bottom center. -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="48dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/dismiss_button"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:background="@drawable/notification_button_bg"
+            android:src="@drawable/ic_close"
+            android:contentDescription="Dismiss"
+            android:padding="16dp"
+            android:scaleType="fitCenter"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

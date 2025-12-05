@@ -25,6 +25,34 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         checkPermissionAndRequest()
+
+        val switch = findViewById<android.widget.Switch>(R.id.enable_notifications_switch)
+        val prefs = getSharedPreferences("com.antigravity.transparentcalendar.prefs", MODE_PRIVATE)
+        switch.isChecked = prefs.getBoolean("PREF_FULL_SCREEN_REMINDER", false)
+
+        switch.setOnCheckedChangeListener { _, isChecked ->
+            prefs.edit().putBoolean("PREF_FULL_SCREEN_REMINDER", isChecked).apply()
+            // Trigger update to schedule/cancel alarms
+            NotificationScheduler.refreshSchedule(this)
+            CalendarUpdateJobService.scheduleJob(this)
+
+            if (isChecked) {
+                 checkNotificationPermission()
+            }
+        }
+
+        // Also check notification permission if enabled on start
+        if (switch.isChecked) {
+            checkNotificationPermission()
+        }
+    }
+
+    private fun checkNotificationPermission() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            if (ContextCompat.checkSelfPermission(this, Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED) {
+                requestPermissionLauncher.launch(Manifest.permission.POST_NOTIFICATIONS)
+            }
+        }
     }
 
     private fun checkPermissionAndRequest() {
