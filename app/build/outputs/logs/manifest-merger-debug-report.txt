@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:1:1-61:12
-INJECTED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:1:1-61:12
-INJECTED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:1:1-61:12
-INJECTED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:1:1-61:12
+ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:1:1-84:12
+INJECTED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:1:1-84:12
+INJECTED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:1:1-84:12
+INJECTED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:1:1-84:12
 MERGED from [androidx.databinding:viewbinding:8.2.1] C:\Users\singh\.gradle\caches\transforms-3\7e5f1c539820847766d11d25b595a2af\transformed\viewbinding-8.2.1\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\singh\.gradle\caches\transforms-3\8d582493af8e3587d73ef3e140c528d3\transformed\material-1.11.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\singh\.gradle\caches\transforms-3\6b26ba3d577597e84adf3d0286fc132f\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
@@ -67,9 +67,29 @@ ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\mai
 		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:6:78-104
 	android:name
 		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:6:22-77
+uses-permission#android.permission.USE_FULL_SCREEN_INTENT
+ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.SCHEDULE_EXACT_ALARM
+ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:8:22-76
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:9:5-77
+	android:name
+		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:9:22-74
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:10:5-68
+	android:name
+		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:10:22-65
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:11:22-78
 application
-ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:8:5-59:19
-INJECTED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:8:5-59:19
+ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:13:5-82:19
+INJECTED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:13:5-82:19
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\singh\.gradle\caches\transforms-3\8d582493af8e3587d73ef3e140c528d3\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\singh\.gradle\caches\transforms-3\8d582493af8e3587d73ef3e140c528d3\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\singh\.gradle\caches\transforms-3\6b26ba3d577597e84adf3d0286fc132f\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -91,87 +111,119 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\singh\.gradle\cach
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.12.0] C:\Users\singh\.gradle\caches\transforms-3\76b8284c3c1d0e85e3f20439daf822db\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:15:9-35
+		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:20:9-35
 	android:label
-		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:13:9-41
+		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:18:9-41
 	android:fullBackupContent
-		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:11:9-54
+		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:16:9-54
 	android:roundIcon
-		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:14:9-50
+		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:19:9-50
 	tools:targetApi
-		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:17:9-29
+		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:22:9-29
 	android:icon
-		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:12:9-45
+		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:17:9-45
 	android:allowBackup
-		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:14:9-35
 	android:theme
-		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:16:9-63
+		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:21:9-63
 	android:dataExtractionRules
-		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:10:9-65
+		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:15:9-65
 activity#com.antigravity.transparentcalendar.MainActivity
-ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:19:9-26:20
+ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:24:9-31:20
 	android:exported
-		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:21:13-36
+		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:26:13-36
 	android:name
-		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:20:13-76
+		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:25:13-76
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:22:13-25:29
+ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:27:13-30:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:23:17-69
+ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:28:17-69
 	android:name
-		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:23:25-66
+		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:28:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:24:17-77
+ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:29:17-77
 	android:name
-		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:24:27-74
+		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:29:27-74
 activity#com.antigravity.transparentcalendar.WidgetConfigActivity
-ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:28:9-35:20
+ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:33:9-40:20
 	android:exported
-		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:30:13-36
+		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:35:13-36
 	android:theme
-		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:31:13-69
+		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:36:13-69
 	android:name
-		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:29:13-84
+		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:34:13-84
 intent-filter#action:name:android.appwidget.action.APPWIDGET_CONFIGURE
-ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:32:13-34:29
+ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:37:13-39:29
 action#android.appwidget.action.APPWIDGET_CONFIGURE
-ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:33:17-87
+ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:38:17-87
 	android:name
-		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:33:25-84
+		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:38:25-84
+activity#com.antigravity.transparentcalendar.EventNotificationActivity
+ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:42:9-48:49
+	android:excludeFromRecents
+		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:48:13-46
+	android:launchMode
+		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:47:13-44
+	android:exported
+		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:44:13-37
+	android:showOnLockScreen
+		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:46:13-44
+	android:theme
+		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:45:13-63
+	android:name
+		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:43:13-89
+receiver#com.antigravity.transparentcalendar.EventAlarmReceiver
+ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:50:9-51:39
+	android:exported
+		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:51:13-37
+	android:name
+		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:50:19-88
+receiver#com.antigravity.transparentcalendar.BootReceiver
+ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:53:9-58:20
+	android:exported
+		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:54:13-36
+	android:name
+		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:53:19-82
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:55:13-57:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:56:17-79
+	android:name
+		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:56:25-76
 receiver#com.antigravity.transparentcalendar.CalendarWidgetProvider
-ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:37:9-48:20
+ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:60:9-71:20
 	android:label
-		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:40:13-48
+		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:63:13-48
 	android:exported
-		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:39:13-36
+		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:62:13-36
 	android:name
-		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:38:13-86
+		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:61:13-86
 intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE
-ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:41:13-43:29
+ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:64:13-66:29
 action#android.appwidget.action.APPWIDGET_UPDATE
-ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:42:17-84
+ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:65:17-84
 	android:name
-		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:42:25-81
+		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:65:25-81
 meta-data#android.appwidget.provider
-ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:45:13-47:64
+ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:68:13-70:64
 	android:resource
-		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:47:17-61
+		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:70:17-61
 	android:name
-		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:46:17-58
+		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:69:17-58
 service#com.antigravity.transparentcalendar.CalendarWidgetService
-ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:50:9-52:72
+ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:73:9-75:72
 	android:permission
-		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:52:13-69
+		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:75:13-69
 	android:name
-		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:51:13-85
+		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:74:13-85
 service#com.antigravity.transparentcalendar.CalendarUpdateJobService
-ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:54:9-57:39
+ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:77:9-80:39
 	android:exported
-		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:57:13-36
+		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:80:13-36
 	android:permission
-		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:56:13-69
+		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:79:13-69
 	android:name
-		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:55:13-88
+		ADDED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:78:13-88
 uses-sdk
 INJECTED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml

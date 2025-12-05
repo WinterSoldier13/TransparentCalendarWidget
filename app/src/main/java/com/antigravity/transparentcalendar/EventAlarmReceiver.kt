@@ -14,13 +14,14 @@ import androidx.core.app.NotificationCompat
 class EventAlarmReceiver : BroadcastReceiver() {
 
     companion object {
-        const val CHANNEL_ID = "event_reminders"
+        const val CHANNEL_ID = "event_reminders_v2" // CHANGED: Updated channel ID
         const val CHANNEL_NAME = "Event Reminders"
         const val NOTIFICATION_ID = 123
     }
 
     override fun onReceive(context: Context, intent: Intent) {
-        Log.d("EventAlarmReceiver", "Alarm received")
+        Log.d("EventAlarmReceiver", "Alarm received for event notification") // UPDATED LOG
+
 
         val prefs = context.getSharedPreferences("com.antigravity.transparentcalendar.prefs", Context.MODE_PRIVATE)
         val isEnabled = prefs.getBoolean("PREF_FULL_SCREEN_REMINDER", false)

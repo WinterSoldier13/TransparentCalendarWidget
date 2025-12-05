@@ -3005,6 +3005,7 @@ drawable ic_call_decline
 drawable ic_call_decline_low
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
+drawable ic_close
 drawable ic_keyboard_black_24dp
 drawable ic_launcher
 drawable ic_m3_chip_check
@@ -3081,6 +3082,7 @@ drawable notification_bg_low_normal
 drawable notification_bg_low_pressed
 drawable notification_bg_normal
 drawable notification_bg_normal_pressed
+drawable notification_button_bg
 drawable notification_icon_background
 drawable notification_oversize_large_icon_bg
 drawable notification_template_icon_bg
@@ -3250,6 +3252,7 @@ id disableIntraAutoTransition
 id disablePostScroll
 id disableScroll
 id disjoint
+id dismiss_button
 id dragAnticlockwise
 id dragClockwise
 id dragDown
@@ -3269,6 +3272,7 @@ id edit_text_id
 id elastic
 id embed
 id empty_view
+id enable_notifications_switch
 id end
 id endToStart
 id enterAlways
@@ -3417,8 +3421,10 @@ id none
 id normal
 id north
 id notification_background
+id notification_details
 id notification_main_column
 id notification_main_column_container
+id notification_title
 id off
 id on
 id onInterceptTouchReturnSwipe
@@ -3544,6 +3550,7 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
+id test_notification_button
 id text
 id text2
 id textEnd
@@ -3714,6 +3721,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_event_notification
 layout activity_main
 layout activity_widget_config
 layout custom_dialog

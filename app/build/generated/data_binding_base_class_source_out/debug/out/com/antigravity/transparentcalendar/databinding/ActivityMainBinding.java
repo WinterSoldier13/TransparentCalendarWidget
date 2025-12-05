@@ -4,20 +4,33 @@ package com.antigravity.transparentcalendar.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.LinearLayout;
+import android.widget.Switch;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.antigravity.transparentcalendar.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class ActivityMainBinding implements ViewBinding {
   @NonNull
   private final LinearLayout rootView;
 
-  private ActivityMainBinding(@NonNull LinearLayout rootView) {
+  @NonNull
+  public final Switch enableNotificationsSwitch;
+
+  @NonNull
+  public final Button testNotificationButton;
+
+  private ActivityMainBinding(@NonNull LinearLayout rootView,
+      @NonNull Switch enableNotificationsSwitch, @NonNull Button testNotificationButton) {
     this.rootView = rootView;
+    this.enableNotificationsSwitch = enableNotificationsSwitch;
+    this.testNotificationButton = testNotificationButton;
   }
 
   @Override
@@ -43,10 +56,26 @@ public final class ActivityMainBinding implements ViewBinding {
 
   @NonNull
   public static ActivityMainBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.enable_notifications_switch;
+      Switch enableNotificationsSwitch = ViewBindings.findChildViewById(rootView, id);
+      if (enableNotificationsSwitch == null) {
+        break missingId;
+      }
 
-    return new ActivityMainBinding((LinearLayout) rootView);
+      id = R.id.test_notification_button;
+      Button testNotificationButton = ViewBindings.findChildViewById(rootView, id);
+      if (testNotificationButton == null) {
+        break missingId;
+      }
+
+      return new ActivityMainBinding((LinearLayout) rootView, enableNotificationsSwitch,
+          testNotificationButton);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

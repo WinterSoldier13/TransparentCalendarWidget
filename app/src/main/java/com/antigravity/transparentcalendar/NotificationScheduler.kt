@@ -171,6 +171,28 @@ object NotificationScheduler {
             }
         } catch (e: SecurityException) {
             Log.e(TAG, "Permission error scheduling alarm", e)
+            // Ideally we should notify the user here if this runs in foreground or if we can show a notification
+            // but since this might run in bg, we just log.
+            // However, let's try to post a notification if we have permission, so the user knows why it failed.
+            try {
+                 val notificationManager = context.getSystemService(Context.NOTIFICATION_SERVICE) as android.app.NotificationManager
+                 val errorChannelId = "error_channel"
+                 if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
+                     val channel = android.app.NotificationChannel(errorChannelId, "Errors", android.app.NotificationManager.IMPORTANCE_HIGH)
+                     notificationManager.createNotificationChannel(channel)
+                 }
+
+                 val builder = androidx.core.app.NotificationCompat.Builder(context, errorChannelId)
+                     .setSmallIcon(android.R.drawable.ic_dialog_alert)
+                     .setContentTitle("Calendar Widget Error")
+                     .setContentText("Cannot schedule exact alarms. Please enable 'Alarms & Reminders' in Settings.")
+                     .setPriority(androidx.core.app.NotificationCompat.PRIORITY_HIGH)
+                     .setAutoCancel(true)
+                     
+                 notificationManager.notify(999, builder.build())
+            } catch (ex: Exception) {
+               Log.e(TAG, "Could not show error notification", ex)
+            }
         }
     }
 
