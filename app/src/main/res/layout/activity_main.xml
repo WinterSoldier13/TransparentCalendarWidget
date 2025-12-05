@@ -29,4 +29,19 @@
         android:gravity="center"
         android:lineSpacingMultiplier="1.2"/>
 
+    <Switch
+        android:id="@+id/enable_notifications_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Enable Full Screen Reminders"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/test_notification_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Test Notification (5s Delay)" />
+
 </LinearLayout>

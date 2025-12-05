@@ -17,177 +17,225 @@
 13-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:6:22-77
 14        android:maxSdkVersion="32" />
 14-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:6:78-104
-15
-16    <permission
-16-->[androidx.core:core:1.12.0] C:\Users\singh\.gradle\caches\transforms-3\76b8284c3c1d0e85e3f20439daf822db\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
-17        android:name="com.antigravity.transparentcalendar.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-17-->[androidx.core:core:1.12.0] C:\Users\singh\.gradle\caches\transforms-3\76b8284c3c1d0e85e3f20439daf822db\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
-18        android:protectionLevel="signature" />
-18-->[androidx.core:core:1.12.0] C:\Users\singh\.gradle\caches\transforms-3\76b8284c3c1d0e85e3f20439daf822db\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
-19
-20    <uses-permission android:name="com.antigravity.transparentcalendar.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-20-->[androidx.core:core:1.12.0] C:\Users\singh\.gradle\caches\transforms-3\76b8284c3c1d0e85e3f20439daf822db\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
-20-->[androidx.core:core:1.12.0] C:\Users\singh\.gradle\caches\transforms-3\76b8284c3c1d0e85e3f20439daf822db\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
-21
-22    <application
-22-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:8:5-59:19
-23        android:allowBackup="true"
-23-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:9:9-35
-24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-24-->[androidx.core:core:1.12.0] C:\Users\singh\.gradle\caches\transforms-3\76b8284c3c1d0e85e3f20439daf822db\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
-25        android:dataExtractionRules="@xml/data_extraction_rules"
-25-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:10:9-65
-26        android:debuggable="true"
-27        android:extractNativeLibs="false"
-28        android:fullBackupContent="@xml/backup_rules"
-28-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:11:9-54
-29        android:icon="@drawable/ic_launcher"
-29-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:12:9-45
-30        android:label="@string/app_name"
-30-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:13:9-41
-31        android:roundIcon="@drawable/ic_launcher"
-31-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:14:9-50
-32        android:supportsRtl="true"
-32-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:15:9-35
-33        android:testOnly="true"
-34        android:theme="@style/Theme.TransparentCalendarWidget" >
-34-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:16:9-63
-35        <activity
-35-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:19:9-26:20
-36            android:name="com.antigravity.transparentcalendar.MainActivity"
-36-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:20:13-76
-37            android:exported="true" >
-37-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:21:13-36
-38            <intent-filter>
-38-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:22:13-25:29
-39                <action android:name="android.intent.action.MAIN" />
-39-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:23:17-69
-39-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:23:25-66
-40
-41                <category android:name="android.intent.category.LAUNCHER" />
-41-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:24:17-77
-41-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:24:27-74
-42            </intent-filter>
-43        </activity>
-44        <activity
-44-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:28:9-35:20
-45            android:name="com.antigravity.transparentcalendar.WidgetConfigActivity"
-45-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:29:13-84
-46            android:exported="true"
-46-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:30:13-36
-47            android:theme="@android:style/Theme.DeviceDefault.Light" >
-47-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:31:13-69
-48            <intent-filter>
-48-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:32:13-34:29
-49                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
-49-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:33:17-87
-49-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:33:25-84
-50            </intent-filter>
-51        </activity>
-52
-53        <receiver
-53-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:37:9-48:20
-54            android:name="com.antigravity.transparentcalendar.CalendarWidgetProvider"
-54-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:38:13-86
-55            android:exported="true"
-55-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:39:13-36
-56            android:label="@string/widget_name" >
-56-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:40:13-48
-57            <intent-filter>
-57-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:41:13-43:29
-58                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-58-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:42:17-84
-58-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:42:25-81
-59            </intent-filter>
-60
-61            <meta-data
-61-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:45:13-47:64
-62                android:name="android.appwidget.provider"
-62-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:46:17-58
-63                android:resource="@xml/calendar_widget_info" />
-63-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:47:17-61
-64        </receiver>
-65
-66        <service
-66-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:50:9-52:72
-67            android:name="com.antigravity.transparentcalendar.CalendarWidgetService"
-67-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:51:13-85
-68            android:permission="android.permission.BIND_REMOTEVIEWS" />
-68-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:52:13-69
-69        <service
-69-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:54:9-57:39
-70            android:name="com.antigravity.transparentcalendar.CalendarUpdateJobService"
-70-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:55:13-88
-71            android:exported="true"
-71-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:57:13-36
-72            android:permission="android.permission.BIND_JOB_SERVICE" />
-72-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:56:13-69
-73
-74        <provider
-74-->[androidx.emoji2:emoji2:1.2.0] C:\Users\singh\.gradle\caches\transforms-3\9b3adb1cecbef2de660d9c77b0037217\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-75            android:name="androidx.startup.InitializationProvider"
-75-->[androidx.emoji2:emoji2:1.2.0] C:\Users\singh\.gradle\caches\transforms-3\9b3adb1cecbef2de660d9c77b0037217\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-76            android:authorities="com.antigravity.transparentcalendar.androidx-startup"
-76-->[androidx.emoji2:emoji2:1.2.0] C:\Users\singh\.gradle\caches\transforms-3\9b3adb1cecbef2de660d9c77b0037217\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-77            android:exported="false" >
-77-->[androidx.emoji2:emoji2:1.2.0] C:\Users\singh\.gradle\caches\transforms-3\9b3adb1cecbef2de660d9c77b0037217\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-78            <meta-data
-78-->[androidx.emoji2:emoji2:1.2.0] C:\Users\singh\.gradle\caches\transforms-3\9b3adb1cecbef2de660d9c77b0037217\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-79                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-79-->[androidx.emoji2:emoji2:1.2.0] C:\Users\singh\.gradle\caches\transforms-3\9b3adb1cecbef2de660d9c77b0037217\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-80                android:value="androidx.startup" />
-80-->[androidx.emoji2:emoji2:1.2.0] C:\Users\singh\.gradle\caches\transforms-3\9b3adb1cecbef2de660d9c77b0037217\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-81            <meta-data
-81-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\singh\.gradle\caches\transforms-3\cf0bf004fda39815d949568d13dcfaa8\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
-82                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-82-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\singh\.gradle\caches\transforms-3\cf0bf004fda39815d949568d13dcfaa8\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
-83                android:value="androidx.startup" />
-83-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\singh\.gradle\caches\transforms-3\cf0bf004fda39815d949568d13dcfaa8\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
-84            <meta-data
-84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\singh\.gradle\caches\transforms-3\eface40e57642474b2917bf3f6b5fe4d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
-85                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\singh\.gradle\caches\transforms-3\eface40e57642474b2917bf3f6b5fe4d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
-86                android:value="androidx.startup" />
-86-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\singh\.gradle\caches\transforms-3\eface40e57642474b2917bf3f6b5fe4d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
-87        </provider>
-88
-89        <receiver
-89-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\singh\.gradle\caches\transforms-3\eface40e57642474b2917bf3f6b5fe4d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
-90            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-90-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\singh\.gradle\caches\transforms-3\eface40e57642474b2917bf3f6b5fe4d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
-91            android:directBootAware="false"
-91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\singh\.gradle\caches\transforms-3\eface40e57642474b2917bf3f6b5fe4d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
-92            android:enabled="true"
-92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\singh\.gradle\caches\transforms-3\eface40e57642474b2917bf3f6b5fe4d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+15    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+15-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:7:5-81
+15-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:7:22-78
+16    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+16-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:8:5-79
+16-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:8:22-76
+17    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+17-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:9:5-77
+17-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:9:22-74
+18    <uses-permission android:name="android.permission.WAKE_LOCK" />
+18-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:10:5-68
+18-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:10:22-65
+19    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+19-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:11:5-81
+19-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:11:22-78
+20
+21    <permission
+21-->[androidx.core:core:1.12.0] C:\Users\singh\.gradle\caches\transforms-3\76b8284c3c1d0e85e3f20439daf822db\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+22        android:name="com.antigravity.transparentcalendar.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+22-->[androidx.core:core:1.12.0] C:\Users\singh\.gradle\caches\transforms-3\76b8284c3c1d0e85e3f20439daf822db\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+23        android:protectionLevel="signature" />
+23-->[androidx.core:core:1.12.0] C:\Users\singh\.gradle\caches\transforms-3\76b8284c3c1d0e85e3f20439daf822db\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+24
+25    <uses-permission android:name="com.antigravity.transparentcalendar.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+25-->[androidx.core:core:1.12.0] C:\Users\singh\.gradle\caches\transforms-3\76b8284c3c1d0e85e3f20439daf822db\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+25-->[androidx.core:core:1.12.0] C:\Users\singh\.gradle\caches\transforms-3\76b8284c3c1d0e85e3f20439daf822db\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+26
+27    <application
+27-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:13:5-82:19
+28        android:allowBackup="true"
+28-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:14:9-35
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.12.0] C:\Users\singh\.gradle\caches\transforms-3\76b8284c3c1d0e85e3f20439daf822db\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+30        android:dataExtractionRules="@xml/data_extraction_rules"
+30-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:15:9-65
+31        android:debuggable="true"
+32        android:extractNativeLibs="false"
+33        android:fullBackupContent="@xml/backup_rules"
+33-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:16:9-54
+34        android:icon="@drawable/ic_launcher"
+34-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:17:9-45
+35        android:label="@string/app_name"
+35-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:18:9-41
+36        android:roundIcon="@drawable/ic_launcher"
+36-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:19:9-50
+37        android:supportsRtl="true"
+37-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:20:9-35
+38        android:testOnly="true"
+39        android:theme="@style/Theme.TransparentCalendarWidget" >
+39-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:21:9-63
+40        <activity
+40-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:24:9-31:20
+41            android:name="com.antigravity.transparentcalendar.MainActivity"
+41-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:25:13-76
+42            android:exported="true" >
+42-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:26:13-36
+43            <intent-filter>
+43-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:27:13-30:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:28:17-69
+44-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:28:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:29:17-77
+46-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:29:27-74
+47            </intent-filter>
+48        </activity>
+49        <activity
+49-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:33:9-40:20
+50            android:name="com.antigravity.transparentcalendar.WidgetConfigActivity"
+50-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:34:13-84
+51            android:exported="true"
+51-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:35:13-36
+52            android:theme="@android:style/Theme.DeviceDefault.Light" >
+52-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:36:13-69
+53            <intent-filter>
+53-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:37:13-39:29
+54                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+54-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:38:17-87
+54-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:38:25-84
+55            </intent-filter>
+56        </activity>
+57        <activity
+57-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:42:9-48:49
+58            android:name="com.antigravity.transparentcalendar.EventNotificationActivity"
+58-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:43:13-89
+59            android:excludeFromRecents="true"
+59-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:48:13-46
+60            android:exported="false"
+60-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:44:13-37
+61            android:launchMode="singleTask"
+61-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:47:13-44
+62            android:showOnLockScreen="true"
+62-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:46:13-44
+63            android:theme="@style/Theme.AppCompat.NoActionBar" />
+63-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:45:13-63
+64
+65        <receiver
+65-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:50:9-51:39
+66            android:name="com.antigravity.transparentcalendar.EventAlarmReceiver"
+66-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:50:19-88
+67            android:exported="false" />
+67-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:51:13-37
+68        <receiver
+68-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:53:9-58:20
+69            android:name="com.antigravity.transparentcalendar.BootReceiver"
+69-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:53:19-82
+70            android:exported="true" >
+70-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:54:13-36
+71            <intent-filter>
+71-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:55:13-57:29
+72                <action android:name="android.intent.action.BOOT_COMPLETED" />
+72-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:56:17-79
+72-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:56:25-76
+73            </intent-filter>
+74        </receiver>
+75        <receiver
+75-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:60:9-71:20
+76            android:name="com.antigravity.transparentcalendar.CalendarWidgetProvider"
+76-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:61:13-86
+77            android:exported="true"
+77-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:62:13-36
+78            android:label="@string/widget_name" >
+78-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:63:13-48
+79            <intent-filter>
+79-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:64:13-66:29
+80                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+80-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:65:17-84
+80-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:65:25-81
+81            </intent-filter>
+82
+83            <meta-data
+83-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:68:13-70:64
+84                android:name="android.appwidget.provider"
+84-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:69:17-58
+85                android:resource="@xml/calendar_widget_info" />
+85-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:70:17-61
+86        </receiver>
+87
+88        <service
+88-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:73:9-75:72
+89            android:name="com.antigravity.transparentcalendar.CalendarWidgetService"
+89-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:74:13-85
+90            android:permission="android.permission.BIND_REMOTEVIEWS" />
+90-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:75:13-69
+91        <service
+91-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:77:9-80:39
+92            android:name="com.antigravity.transparentcalendar.CalendarUpdateJobService"
+92-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:78:13-88
 93            android:exported="true"
-93-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\singh\.gradle\caches\transforms-3\eface40e57642474b2917bf3f6b5fe4d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
-94            android:permission="android.permission.DUMP" >
-94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\singh\.gradle\caches\transforms-3\eface40e57642474b2917bf3f6b5fe4d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
-95            <intent-filter>
-95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\singh\.gradle\caches\transforms-3\eface40e57642474b2917bf3f6b5fe4d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
-96                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-96-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\singh\.gradle\caches\transforms-3\eface40e57642474b2917bf3f6b5fe4d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
-96-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\singh\.gradle\caches\transforms-3\eface40e57642474b2917bf3f6b5fe4d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
-97            </intent-filter>
-98            <intent-filter>
-98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\singh\.gradle\caches\transforms-3\eface40e57642474b2917bf3f6b5fe4d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
-99                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-99-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\singh\.gradle\caches\transforms-3\eface40e57642474b2917bf3f6b5fe4d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
-99-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\singh\.gradle\caches\transforms-3\eface40e57642474b2917bf3f6b5fe4d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
-100            </intent-filter>
-101            <intent-filter>
-101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\singh\.gradle\caches\transforms-3\eface40e57642474b2917bf3f6b5fe4d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
-102                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-102-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\singh\.gradle\caches\transforms-3\eface40e57642474b2917bf3f6b5fe4d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
-102-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\singh\.gradle\caches\transforms-3\eface40e57642474b2917bf3f6b5fe4d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
-103            </intent-filter>
-104            <intent-filter>
-104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\singh\.gradle\caches\transforms-3\eface40e57642474b2917bf3f6b5fe4d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
-105                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-105-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\singh\.gradle\caches\transforms-3\eface40e57642474b2917bf3f6b5fe4d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
-105-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\singh\.gradle\caches\transforms-3\eface40e57642474b2917bf3f6b5fe4d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
-106            </intent-filter>
-107        </receiver>
-108    </application>
-109
-110</manifest>
+93-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:80:13-36
+94            android:permission="android.permission.BIND_JOB_SERVICE" />
+94-->C:\Users\singh\code\Antigravity\TransparentCalendarWidget\app\src\main\AndroidManifest.xml:79:13-69
+95
+96        <provider
+96-->[androidx.emoji2:emoji2:1.2.0] C:\Users\singh\.gradle\caches\transforms-3\9b3adb1cecbef2de660d9c77b0037217\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+97            android:name="androidx.startup.InitializationProvider"
+97-->[androidx.emoji2:emoji2:1.2.0] C:\Users\singh\.gradle\caches\transforms-3\9b3adb1cecbef2de660d9c77b0037217\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+98            android:authorities="com.antigravity.transparentcalendar.androidx-startup"
+98-->[androidx.emoji2:emoji2:1.2.0] C:\Users\singh\.gradle\caches\transforms-3\9b3adb1cecbef2de660d9c77b0037217\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+99            android:exported="false" >
+99-->[androidx.emoji2:emoji2:1.2.0] C:\Users\singh\.gradle\caches\transforms-3\9b3adb1cecbef2de660d9c77b0037217\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+100            <meta-data
+100-->[androidx.emoji2:emoji2:1.2.0] C:\Users\singh\.gradle\caches\transforms-3\9b3adb1cecbef2de660d9c77b0037217\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+101                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+101-->[androidx.emoji2:emoji2:1.2.0] C:\Users\singh\.gradle\caches\transforms-3\9b3adb1cecbef2de660d9c77b0037217\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+102                android:value="androidx.startup" />
+102-->[androidx.emoji2:emoji2:1.2.0] C:\Users\singh\.gradle\caches\transforms-3\9b3adb1cecbef2de660d9c77b0037217\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+103            <meta-data
+103-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\singh\.gradle\caches\transforms-3\cf0bf004fda39815d949568d13dcfaa8\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+104                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+104-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\singh\.gradle\caches\transforms-3\cf0bf004fda39815d949568d13dcfaa8\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+105                android:value="androidx.startup" />
+105-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\singh\.gradle\caches\transforms-3\cf0bf004fda39815d949568d13dcfaa8\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+106            <meta-data
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\singh\.gradle\caches\transforms-3\eface40e57642474b2917bf3f6b5fe4d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+107                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+107-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\singh\.gradle\caches\transforms-3\eface40e57642474b2917bf3f6b5fe4d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+108                android:value="androidx.startup" />
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\singh\.gradle\caches\transforms-3\eface40e57642474b2917bf3f6b5fe4d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+109        </provider>
+110
+111        <receiver
+111-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\singh\.gradle\caches\transforms-3\eface40e57642474b2917bf3f6b5fe4d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+112            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+112-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\singh\.gradle\caches\transforms-3\eface40e57642474b2917bf3f6b5fe4d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+113            android:directBootAware="false"
+113-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\singh\.gradle\caches\transforms-3\eface40e57642474b2917bf3f6b5fe4d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+114            android:enabled="true"
+114-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\singh\.gradle\caches\transforms-3\eface40e57642474b2917bf3f6b5fe4d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+115            android:exported="true"
+115-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\singh\.gradle\caches\transforms-3\eface40e57642474b2917bf3f6b5fe4d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+116            android:permission="android.permission.DUMP" >
+116-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\singh\.gradle\caches\transforms-3\eface40e57642474b2917bf3f6b5fe4d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+117            <intent-filter>
+117-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\singh\.gradle\caches\transforms-3\eface40e57642474b2917bf3f6b5fe4d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+118                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+118-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\singh\.gradle\caches\transforms-3\eface40e57642474b2917bf3f6b5fe4d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+118-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\singh\.gradle\caches\transforms-3\eface40e57642474b2917bf3f6b5fe4d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+119            </intent-filter>
+120            <intent-filter>
+120-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\singh\.gradle\caches\transforms-3\eface40e57642474b2917bf3f6b5fe4d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+121                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+121-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\singh\.gradle\caches\transforms-3\eface40e57642474b2917bf3f6b5fe4d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+121-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\singh\.gradle\caches\transforms-3\eface40e57642474b2917bf3f6b5fe4d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+122            </intent-filter>
+123            <intent-filter>
+123-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\singh\.gradle\caches\transforms-3\eface40e57642474b2917bf3f6b5fe4d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+124                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+124-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\singh\.gradle\caches\transforms-3\eface40e57642474b2917bf3f6b5fe4d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+124-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\singh\.gradle\caches\transforms-3\eface40e57642474b2917bf3f6b5fe4d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+125            </intent-filter>
+126            <intent-filter>
+126-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\singh\.gradle\caches\transforms-3\eface40e57642474b2917bf3f6b5fe4d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+127                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+127-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\singh\.gradle\caches\transforms-3\eface40e57642474b2917bf3f6b5fe4d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+127-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\singh\.gradle\caches\transforms-3\eface40e57642474b2917bf3f6b5fe4d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+128            </intent-filter>
+129        </receiver>
+130    </application>
+131
+132</manifest>
